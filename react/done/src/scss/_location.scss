@@ -1,0 +1,26 @@
+.locations{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+    .location{
+        background-color: $BlockColor;
+        margin: 10px;
+        border-radius: 2%;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        h1{
+            justify-content: center;
+            p{
+                color: $Text;
+                font-weight: normal;
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+        
+    }
+}

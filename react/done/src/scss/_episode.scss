@@ -1,0 +1,21 @@
+.episodes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+    .episode{
+        background-color: $BlockColor;
+        margin: 10px;
+        border-radius: 2%;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size: 25px;
+            color: $Text;
+            text-align: center;
+        }
+    }
+}

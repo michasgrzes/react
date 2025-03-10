@@ -1,0 +1,33 @@
+.characters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+    .character{
+        background-color: $BlockColor;
+        margin: 10px;
+        border-radius: 2%;
+        width: 30%;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        h1{
+            flex-direction: column;
+            justify-content: center;
+            p{
+                color: $Text;
+                text-align: center;
+            }
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 30%;
+            display: block;
+            margin: auto;
+        }
+
+    }
+}
